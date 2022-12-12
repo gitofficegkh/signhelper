@@ -44,9 +44,9 @@ website_config = [
     # mt论坛配置
     {
         "name": "mt",
-        "open": False,
-        "cookie": "",
-        "formhash": "",
+        "open": True,
+        "cookie": os.environ["MT_Cookies"],
+        "formhash": os.environ["MT_Formhash"],
     },
 ]
 
@@ -56,7 +56,7 @@ sendmessage_config = [
     {
         "name": "serverchan",
         "open": False,
-        "sendkey": "",
+        "sendkey": os.environ["SERVERCHAN_SENDKEY"],
     },
 ]
 
