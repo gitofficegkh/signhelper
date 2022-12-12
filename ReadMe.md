@@ -58,7 +58,7 @@
 
 ## 六、项目下载
 
-> 第三方分流（蓝奏云）：<https://yfgzs.lanzouv.com/b0at7jt1g> 密码:7kgw
+>板砖自吾爱破解论坛：https://www.52pojie.cn/forum.php?mod=viewthread&tid=1677080&highlight=signhelper
 
 ## 七、更新日志
 
