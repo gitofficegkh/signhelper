@@ -1,0 +1,37 @@
+name: auto checkin
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  #push:
+    #branches: [ main ]
+  #pull_request:
+    #branches: [ main ]
+
+  schedule:
+  # 定时运行 UTC 每14天，15：05
+  - cron: "05 15 * * *"
+  
+  workflow_dispatch:
+
+jobs:
+  build:
+    # 执行作业所需的运行器 runner
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Install Python
+      run: |
+        sudo apt update && \
+        sudo apt install python3
+      
+    - name: requirements
+      run: |
+        pip3 install -r requirements.txt
+    - name: Run checkin
+      run: |
+          python3 main.py
+      env: 
+          MT-Cookies: ${{ secrets.MT }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+    - uses: gautamkrishnar/keepalive-workflow@master  
