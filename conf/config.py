@@ -55,7 +55,7 @@ sendmessage_config = [
     # server酱sendkey
     {
         "name": "serverchan",
-        "open": False,
+        "open": True,
         "sendkey": os.environ["SERVERCHAN_SENDKEY"],
     },
 ]
