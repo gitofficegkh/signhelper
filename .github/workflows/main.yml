@@ -7,9 +7,9 @@ on:
   #pull_request:
     #branches: [ main ]
 
-  schedule:
+  #schedule:
   # 定时运行 UTC 每14天，15：05
-  - cron: "05 15 * * *"
+  #- cron: "05 15 * * *"
   
   workflow_dispatch:
 
