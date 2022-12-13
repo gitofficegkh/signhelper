@@ -45,8 +45,8 @@ website_config = [
     {
         "name": "mt",
         "open": True,
-        "cookie": os.environ["MT_Cookies"],
-        "formhash": os.environ["MT_Formhash"],
+        "cookie": os.environ.get("MT_Cookies", None),
+        "formhash": os.environ.get("MT_Formhash", None),
     },
 ]
 
@@ -56,7 +56,7 @@ sendmessage_config = [
     {
         "name": "serverchan",
         "open": True,
-        "sendkey": os.environ["SERVERCHAN_SENDKEY"],
+        "sendkey": os.environ.get("SERVERCHAN_SENDKEY", None),
     },
 ]
 
