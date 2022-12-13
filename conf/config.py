@@ -45,8 +45,8 @@ website_config = [
     {
         "name": "mt",
         "open": True,
-        "cookie": os.environ.get("MT_Cookies", None),
-        "formhash": os.environ.get("MT_Formhash", None),
+        "cookie": "X_CACHE_KEY=689dceaa037344d632e19acc58d15383; cQWy_2132_saltkey=D1uq7l71; cQWy_2132_lastvisit=1670598049; cQWy_2132_connect_is_bind=0; cQWy_2132_nofavfid=1; cQWy_2132_atarget=1; cQWy_2132_forum_lastvisit=D_41_1670862635; cQWy_2132_visitedfid=41; cQWy_2132_smile=5D1; cQWy_2132_sid=o3ZItD; cQWy_2132_home_diymode=1; cQWy_2132_ulastactivity=5198yOdD1733h+juvqQrs8JUHygKT0ovm5f9//DedlxZBGRUV/db; cQWy_2132_auth=b8273NRQ1f8tAo46dbtjwVSIN8XDRINCaFock7nspUk1Z3K9+IqCNHXuhoEMFGjH7imGFX2STCfThVWnwXWHaXXDrg; cQWy_2132_misigntime=1670947722; cQWy_2132_sendmail=1; cQWy_2132_lastact=1670947739	home.php	spacecp; cQWy_2132_lastcheckfeed=12184|1670947739",
+        "formhash": "18967d44",
     },
 ]
 
