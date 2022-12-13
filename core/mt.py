@@ -3,6 +3,8 @@ import requests
 
 
 def sign_mt(cookie, formhash):
+    print(cookie)
+    print(formhash)
     url = f'https://bbs.binmt.cc/k_misign-sign.html?operation=qiandao&format=button&formhash={formhash}&inajax=1&ajaxtarget=midaben_sign'
     headers = {
         'Cookie': cookie,
