@@ -5,7 +5,6 @@
 # formhash 有的网站需要有的不需要，根据情况配置
 # account 社区账号
 # password 社区账号对应的密码
-import os
 # 签到配置
 website_config = [
     # 吾爱破解网站配置
